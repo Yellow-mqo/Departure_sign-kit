@@ -1,0 +1,22 @@
+{
+
+    "name": "YS_dep_lcd",
+    
+    "model": {
+          "modelFile": "machine/dep_lcd.mqo",
+          "textures": [
+            ["mat1", "textures/machine/mat.png"],
+            ["monitor", "textures/machine/lcd/monitor_lcd.png","Light"],
+            ["no", "textures/machine/lcd/no_1.png"],
+            ["pillar", "textures/machine/pillar.png"]
+          ],
+        "rendererPath": "scripts/renderYS_dep_lcd.js"
+      },
+      
+    "buttonTexture": "textures/machine/button/button_dep_lcd.png",
+    "machineType": "Light",
+    "smoothing": true,
+    "doCulling": true,
+    "accuracy": "MEDIUM"
+    
+    }

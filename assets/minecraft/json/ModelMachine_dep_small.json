@@ -1,0 +1,27 @@
+{
+
+    "name": "YS_dep_small",
+    
+    "model": {
+          "modelFile": "machine/dep_small.mqo",
+          "textures": [
+            ["mat1", "textures/machine/mat.png"],
+            ["pillar", "textures/machine/pillar.png"],
+            ["monitor", "textures/machine/monitor_hachioji.png","Light"],
+            ["Fno", "textures/machine/small_guide/Fno_2.png"],
+            ["Ffor", "textures/machine/small_guide/Ffor_hachioji.png"],
+            ["Fline", "textures/machine/small_guide/Fline_jc.png"],
+            ["Bno", "textures/machine/small_guide/Bno_2.png"],
+            ["Bfor", "textures/machine/small_guide/Bfor_hachioji.png"],
+            ["Bline", "textures/machine/small_guide/Bline_jc.png"]           
+          ],
+        "rendererPath": "scripts/renderYS_dep.js"
+      },
+      
+    "buttonTexture": "textures/machine/button/button_dep_small.png",
+    "machineType": "Light",
+    "smoothing": true,
+    "doCulling": true,
+    "accuracy": "MEDIUM"
+    
+    }

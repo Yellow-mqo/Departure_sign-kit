@@ -1,0 +1,28 @@
+{
+
+    "name": "YS_dep_sign",
+    
+    "model": {
+          "modelFile": "machine/dep_sign.mqo",
+          "textures": [
+            ["pillar", "textures/machine/pillar.png"],
+            ["mat1", "textures/machine/mat.png"],
+            ["frame", "textures/machine/frame.png"],
+            ["monitor", "textures/machine/monitor_kitasenju3.png","Light"],
+            ["guide_fl", "textures/machine/guide/guide_3.png"],
+            ["guide_fc", "textures/machine/guide/guide_jjutl.png"],
+            ["guide_fr", "textures/machine/guide/guide_nuts.png"],
+            ["guide_bl", "textures/machine/guide/ediug_nuts.png"],
+            ["guide_bc", "textures/machine/guide/ediug_jjutl.png"],
+            ["guide_br", "textures/machine/guide/ediug_3.png"]
+          ],
+        "rendererPath": "scripts/renderYS_dep.js"
+      },
+      
+    "buttonTexture": "textures/machine/button/button_dep_sign.png",
+    "machineType": "Light",
+    "smoothing": true,
+    "doCulling": true,
+    "accuracy": "MEDIUM"
+    
+    }
